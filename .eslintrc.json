@@ -7,5 +7,16 @@
       "plugin:prettier/recommended"
     ],
     "plugins": ["@typescript-eslint"],
-    "root": true
+    "root": true,
+    "rules": {
+      // Allow unused variables starting with exactly one underscore.
+      "@typescript-eslint/no-unused-vars": [
+        "warn",
+        {
+          "argsIgnorePattern": "^_[^_].*$|^_$",
+          "varsIgnorePattern": "^_[^_].*$|^_$",
+          "caughtErrorsIgnorePattern": "^_[^_].*$|^_$"
+        }
+      ]
+    }
 }

@@ -50,7 +50,7 @@ async function main() {
     info(`  PID: ${pid}`);
     info(`  Listening on port: ${port}`);
     saveState("pid", subprocess.pid?.toString());
-  } catch (e) {
+  } catch (_e) {
     throw new Error(`Turbo server failed to start on port: ${port}`);
   }
 }

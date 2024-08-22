@@ -15,27 +15,27 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@actions/core": "^1.10.0",
-    "get-port": "^6.1.2",
+    "@actions/core": "^1.10.1",
+    "get-port": "^7.1.0",
     "indent-string": "^5.0.0",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.8",
     "tcp-port-used": "^1.0.2"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^18.13.0",
-    "@types/tcp-port-used": "^1.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
-    "@typescript-eslint/parser": "^5.52.0",
+    "@types/node": "^18.19.45",
+    "@types/tcp-port-used": "^1.0.4",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
     "@vercel/ncc": "^0.36.1",
-    "eslint": "^8.34.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
     "npm-run-all": "^4.1.5",
-    "rimraf": "^4.1.2",
-    "ts-node": "^10.9.1",
-    "turborepo-remote-cache": "^1.13.0",
-    "typescript": "^4.9.5"
+    "rimraf": "^4.4.1",
+    "ts-node": "^10.9.2",
+    "turborepo-remote-cache": "^1.15.1",
+    "typescript": "^5.5.4"
   },
   "packageManager": "pnpm@9.8.0+sha512.8e4c3550fb500e808dbc30bb0ce4dd1eb614e30b1c55245f211591ec2cdf9c611cabd34e1364b42f564bd54b3945ed0f49d61d1bbf2ec9bd74b866fcdc723276"
 }

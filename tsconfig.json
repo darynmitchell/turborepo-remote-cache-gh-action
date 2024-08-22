@@ -1,11 +1,16 @@
 {
-  "extends": "@tsconfig/node20",
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "_version": "20.1.0",
+
   "compilerOptions": {
+    "declaration": false,
+    "esModuleInterop": true,
+    "lib": ["es2023"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noImplicitAny": true,
     "rootDir": "src",
     "strict": true,
-    "noImplicitAny": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "declaration": false
+    "target": "es2022",
   }
 }
